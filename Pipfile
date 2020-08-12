@@ -6,9 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pyparsing = "*"
+pyparsing = ">=2.0.3,<2.4.0"
 future = "*"
 pyserial = "*"
+cryptography = ">=2.1.4"
 
 [requires]
 python_version = "3.8"
